@@ -22,7 +22,10 @@ public class PayrollCalculator {
 
         double overtimePay = regularPay;
         if  (hoursWorked > 40) {
-            // isolate overtime hours, multiply by overtime hours by overtime rate, add overtime and full-time hours to get total payroll
+            /* isolate overtime hours,
+             * calculate overtime pay,
+             * add overtime pay with full-time pay to get total payroll
+             */
             overtimePay = ((hoursWorked - 40) * (1.5 * payRate)) + regularPay;
         }
 
