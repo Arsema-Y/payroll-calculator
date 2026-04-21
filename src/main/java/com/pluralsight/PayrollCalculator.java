@@ -15,7 +15,7 @@ public class PayrollCalculator {
 
 
         //display payroll
-        System.out.println("Your total pay is $" + totalPay);
+        System.out.printf("Your total pay is $%.2f", totalPay);
     }
 
   //smaller methods practice
