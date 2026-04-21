@@ -18,8 +18,10 @@ public class PayrollCalculator {
         System.out.printf("Your total pay is $%.2f", totalPay);
     }
 
-  //smaller methods practice
+//smaller methods practice
+    
     //gather info using input system
+
     //get name
     public static void inputName(Scanner input){
         System.out.print("What's your name? ");
